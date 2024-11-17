@@ -2,8 +2,12 @@
 
 Note: run on the command line to pick up environment variable for Groq API key:
 
-    Groq_KEY
+    GGROQ_API_KEY
 
+that you can get by creating an account:
+
+    https://console.groq.com/docs/overview
+    
 # This is an example program in my book "Artificial Intelligence Using Swift"
 
 This example is released using the Apache 2 license.
