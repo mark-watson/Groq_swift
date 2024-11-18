@@ -2,7 +2,7 @@
 
 Note: run on the command line to pick up environment variable for Groq API key:
 
-    GGROQ_API_KEY
+    GROQ_API_KEY
 
 that you can get by creating an account:
 
