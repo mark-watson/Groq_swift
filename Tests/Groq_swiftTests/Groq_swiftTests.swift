@@ -5,7 +5,7 @@ final class Groq_swiftTests: XCTestCase {
   func testExample() {
     print("Starting tests...")
     let prompt = "He walked to the river and looked at"
-    let ret = completions(promptText: prompt)
+    let ret = completions(promptText: prompt, maxTokens: 200)
     print("** ret from Groq API call:", ret)
     let question = "Where was Leonardo da Vinci born?"
     let answer = questionAnswering(question: question)

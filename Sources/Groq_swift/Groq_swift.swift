@@ -75,5 +75,8 @@ func questionAnswering(question: String) -> String {
 }
 
 func completions(promptText: String, maxTokens: Int = 25) -> String {
-    Groq.chat(messages: [["role": "user", "content": promptText]], maxTokens: maxTokens)
+    Groq.chat(messages: [
+        ["role": "system", "content": "You complete text"],
+        ["role": "user", "content": promptText]],
+        maxTokens: maxTokens)
 }
