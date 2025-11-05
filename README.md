@@ -1,5 +1,9 @@
 # Groq Swift API Library - currently being updated for second edition of book
 
+Example from my book "Artificial Intelligence Using Swift"
+
+You can read my book for free online at: https://leanpub.com/SwiftAI/read
+
 Note: run on the command line to pick up environment variable for Groq API key:
 
     GROQ_API_KEY
@@ -7,10 +11,6 @@ Note: run on the command line to pick up environment variable for Groq API key:
 that you can get by creating an account:
 
     https://console.groq.com/docs/overview
-    
-# This is an example program in my book "Artificial Intelligence Using Swift"
-
-This example is released using the Apache 2 license.
 
 ## Book Cover Material, Copyright, and License
 
@@ -32,8 +32,6 @@ Mark Watson. Source: https://leanpub.com/lovinglisp
 ```
 
 This eBook will be updated occasionally so please periodically check the [leanpub.com web page for this book](https://leanpub.com/SwiftAI) for updates.
-
-This is the first edition released spring of 2022.
 
 Please visit the [author's website](http://markwatson.com).
 
